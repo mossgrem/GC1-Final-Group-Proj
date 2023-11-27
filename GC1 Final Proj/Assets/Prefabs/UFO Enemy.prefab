@@ -133,7 +133,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 424a8add9f6c7d442a29c0551987d310, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  StartingHealth: 2
+  StartingHealth: 10
 --- !u!65 &8510449535983133028
 BoxCollider:
   m_ObjectHideFlags: 0
