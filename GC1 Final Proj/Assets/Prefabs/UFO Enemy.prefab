@@ -134,6 +134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartingHealth: 10
+  animator: {fileID: 5163438817615350383}
 --- !u!65 &8510449535983133028
 BoxCollider:
   m_ObjectHideFlags: 0
