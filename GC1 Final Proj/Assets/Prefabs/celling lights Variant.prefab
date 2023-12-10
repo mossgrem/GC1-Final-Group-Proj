@@ -93,10 +93,55 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 7.48
       objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 12.116123
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 12.116123
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 12.116123
+      objectReference: {fileID: 0}
+    - target: {fileID: -2484921068739079471, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.56
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: e169ec3a61af31640bd541c907a2b951,
         type: 3}
       propertyPath: m_Name
       value: celling lights Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 13.16326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 13.16326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 13.16326
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3316992658331686828, guid: e169ec3a61af31640bd541c907a2b951,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.9254465
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
