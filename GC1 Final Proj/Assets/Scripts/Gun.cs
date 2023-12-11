@@ -5,6 +5,8 @@ public class Gun : MonoBehaviour
 {
     public UnityEvent OnGunShoot;
     public float FireCooldown;
+    public AudioSource GCGunSound01;
+    public ParticleSystem MuzzleFlash;
 
     public bool Automatic;
     private float CurrentCooldown;
@@ -12,6 +14,10 @@ public class Gun : MonoBehaviour
     void Start()
     {
         CurrentCooldown = FireCooldown;
+        {
+            {
+            }
+        }
     }
 
     // Update is called once per frame
@@ -20,6 +26,10 @@ public class Gun : MonoBehaviour
         if (Automatic)
         {
             if (Input.GetMouseButton(0))
+            if (Input.GetMouseButton(0))
+                    MuzzleFlash.Play();
+            if (Input.GetMouseButton(0))
+                GCGunSound01.Play();
             {
                 if (CurrentCooldown <= 0f)
                 {

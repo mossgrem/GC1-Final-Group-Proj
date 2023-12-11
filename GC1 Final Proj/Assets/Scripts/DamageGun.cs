@@ -17,6 +17,7 @@ public class DamageGun : MonoBehaviour
     public void Shoot()
     {
         Ray gunRay = new Ray(PlayerCamera.position, PlayerCamera.forward);
+        if (Input.GetMouseButton(0))
         if (Physics.Raycast(gunRay, out RaycastHit hitInfo, BulletRange))
         {
             if (hitInfo.collider.gameObject.TryGetComponent(out Entity enemy))
